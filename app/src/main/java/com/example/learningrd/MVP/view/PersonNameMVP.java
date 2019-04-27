@@ -14,7 +14,7 @@ import com.example.learningrd.R;
 /**
  * @Venkatesh on 15/April/2019
  */
-public class PersonName extends AppCompatActivity implements Contract.View, View.OnClickListener {
+public class PersonNameMVP extends AppCompatActivity implements Contract.View, View.OnClickListener {
 
     private Contract.Presenter presenter;
     //UI properties
@@ -25,7 +25,7 @@ public class PersonName extends AppCompatActivity implements Contract.View, View
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_person_name);
+        setContentView(R.layout.activity_person_name_mvp);
         initView();
 
         //creates a presenter
@@ -38,8 +38,6 @@ public class PersonName extends AppCompatActivity implements Contract.View, View
         mLastNameEditText = findViewById(R.id.et_last_name);
 
         findViewById(R.id.btn_show_name).setOnClickListener(this);
-
-
     }
 
     private void updateName() {

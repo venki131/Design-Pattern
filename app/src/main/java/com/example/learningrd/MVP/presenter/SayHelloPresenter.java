@@ -2,7 +2,7 @@ package com.example.learningrd.MVP.presenter;
 
 import android.text.TextUtils;
 
-import com.example.learningrd.MVP.model.PersonModel;
+import com.example.learningrd.MVP.model.PersonModelMVP;
 import com.example.learningrd.MVP.util.Contract;
 
 /**
@@ -11,11 +11,11 @@ import com.example.learningrd.MVP.util.Contract;
  */
 public class SayHelloPresenter implements Contract.Presenter {
 
-    private PersonModel mPerson; //reference for model
+    private PersonModelMVP mPerson; //reference for model
     private Contract.View mView; //reference for view
 
     public SayHelloPresenter(Contract.View view) {
-        mPerson = new PersonModel();
+        mPerson = new PersonModelMVP();
         mView = view;
     }
     @Override

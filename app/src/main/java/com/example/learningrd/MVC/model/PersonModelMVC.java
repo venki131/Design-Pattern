@@ -1,20 +1,11 @@
-package com.example.learningrd.MVP.model;
+package com.example.learningrd.MVC.model;
 
-/**
- * @Venkatesh on 15/April/2019
- * Represents model in MVP
- */
-public class PersonModel {
+public class PersonModelMVC {
     private String firstName;
     private String lastName;
 
-    public PersonModel() {
+    public PersonModelMVC() {
 
-    }
-
-    public PersonModel(String firsName, String lastName) {
-        this.firstName = firsName;
-        this.lastName = lastName;
     }
 
     public String getFirstName() {
@@ -31,9 +22,5 @@ public class PersonModel {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
-
-    public String getName() {
-        return firstName + " " + lastName;
     }
 }
