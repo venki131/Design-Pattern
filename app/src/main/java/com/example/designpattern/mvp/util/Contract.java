@@ -1,4 +1,4 @@
-package com.example.learningrd.mvp.util;
+package com.example.designpattern.mvp.util;
 
 /**
  * @Venkatesh on 15/April/2019

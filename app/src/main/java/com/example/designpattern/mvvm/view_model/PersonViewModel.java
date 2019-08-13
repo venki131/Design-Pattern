@@ -1,8 +1,8 @@
-package com.example.learningrd.mvvm.view_model;
+package com.example.designpattern.mvvm.view_model;
 
 import android.arch.lifecycle.ViewModel;
 
-import com.example.learningrd.mvvm.model.PersonModelMVVM;
+import com.example.designpattern.mvvm.model.PersonModelMVVM;
 
 public class PersonViewModel extends ViewModel {
     public String name;

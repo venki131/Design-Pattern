@@ -1,4 +1,4 @@
-package com.example.learningrd.mvc.model;
+package com.example.designpattern.mvc.model;
 
 public class PersonModelMVC {
     private String firstName;

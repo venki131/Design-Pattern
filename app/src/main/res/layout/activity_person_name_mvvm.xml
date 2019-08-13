@@ -7,11 +7,11 @@
 
         <variable
             name="user"
-            type="com.example.learningrd.mvvm.model.PersonModelMVVM" />
+            type="com.example.designpattern.mvvm.model.PersonModelMVVM" />
 
         <variable
             name="handlers"
-            type="com.example.learningrd.mvvm.view_model.PersonViewModel" />
+            type="com.example.designpattern.mvvm.view_model.PersonViewModel" />
     </data>
 
     <android.support.constraint.ConstraintLayout

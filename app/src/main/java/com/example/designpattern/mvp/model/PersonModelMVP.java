@@ -1,4 +1,4 @@
-package com.example.learningrd.mvp.model;
+package com.example.designpattern.mvp.model;
 
 /**
  * @Venkatesh on 15/April/2019

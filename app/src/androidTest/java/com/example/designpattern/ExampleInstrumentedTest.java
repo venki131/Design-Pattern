@@ -1,4 +1,4 @@
-package com.example.learningrd;
+package com.example.designpattern;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

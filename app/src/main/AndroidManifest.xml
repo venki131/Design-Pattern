@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.learningrd">
+    package="com.example.designpattern">
 
     <application
         android:allowBackup="true"
@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mvvm.view.PersonNameMVVM"></activity>
-        <activity android:name=".mvc.view.PersonNameMVC" />
-        <activity android:name=".mvp.view.PersonNameMVP" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.designpattern.mvvm.view.PersonNameMVVM"></activity>
+        <activity android:name="com.example.designpattern.mvc.view.PersonNameMVC" />
+        <activity android:name="com.example.designpattern.mvp.view.PersonNameMVP" />
+        <activity android:name="com.example.designpattern.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

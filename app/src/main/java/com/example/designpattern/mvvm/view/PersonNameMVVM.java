@@ -1,12 +1,12 @@
-package com.example.learningrd.mvvm.view;
+package com.example.designpattern.mvvm.view;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.learningrd.R;
-import com.example.learningrd.databinding.ActivityPersonNameMvvmBinding;
-import com.example.learningrd.mvvm.view_model.PersonViewModel;
+import com.example.designpattern.R;
+import com.example.designpattern.databinding.ActivityPersonNameMvvmBinding;
+import com.example.designpattern.mvvm.view_model.PersonViewModel;
 
 public class PersonNameMVVM extends AppCompatActivity {
 

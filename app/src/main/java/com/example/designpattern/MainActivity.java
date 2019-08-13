@@ -1,4 +1,4 @@
-package com.example.learningrd;
+package com.example.designpattern;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,9 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.learningrd.mvc.view.PersonNameMVC;
-import com.example.learningrd.mvp.view.PersonNameMVP;
-import com.example.learningrd.mvvm.view.PersonNameMVVM;
+import com.example.designpattern.mvc.view.PersonNameMVC;
+import com.example.designpattern.mvp.view.PersonNameMVP;
+import com.example.designpattern.mvvm.view.PersonNameMVVM;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

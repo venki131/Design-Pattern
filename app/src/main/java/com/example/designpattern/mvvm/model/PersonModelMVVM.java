@@ -1,4 +1,4 @@
-package com.example.learningrd.mvvm.model;
+package com.example.designpattern.mvvm.model;
 
 
 import android.databinding.BaseObservable;

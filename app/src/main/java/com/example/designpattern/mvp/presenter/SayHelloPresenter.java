@@ -1,9 +1,9 @@
-package com.example.learningrd.mvp.presenter;
+package com.example.designpattern.mvp.presenter;
 
 import android.text.TextUtils;
 
-import com.example.learningrd.mvp.model.PersonModelMVP;
-import com.example.learningrd.mvp.util.Contract;
+import com.example.designpattern.mvp.model.PersonModelMVP;
+import com.example.designpattern.mvp.util.Contract;
 
 /**
  * @Venkatesh on 15/April/2019
