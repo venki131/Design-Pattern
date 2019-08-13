@@ -1,4 +1,4 @@
-package com.example.learningrd.MVP.view;
+package com.example.learningrd.mvp.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.learningrd.MVP.presenter.SayHelloPresenter;
-import com.example.learningrd.MVP.util.Contract;
+import com.example.learningrd.mvp.presenter.SayHelloPresenter;
+import com.example.learningrd.mvp.util.Contract;
 import com.example.learningrd.R;
 
 /**

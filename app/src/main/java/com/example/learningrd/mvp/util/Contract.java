@@ -1,4 +1,4 @@
-package com.example.learningrd.MVP.util;
+package com.example.learningrd.mvp.util;
 
 /**
  * @Venkatesh on 15/April/2019

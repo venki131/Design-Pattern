@@ -6,8 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.learningrd.MVC.view.PersonNameMVC;
-import com.example.learningrd.MVP.view.PersonNameMVP;
+import com.example.learningrd.mvc.view.PersonNameMVC;
+import com.example.learningrd.mvp.view.PersonNameMVP;
+import com.example.learningrd.mvvm.view.PersonNameMVVM;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -51,6 +52,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.btn_mvvm:
+                intent = new Intent(this, PersonNameMVVM.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
                 break;
         }
     }

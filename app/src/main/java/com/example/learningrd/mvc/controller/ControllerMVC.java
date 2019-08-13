@@ -1,6 +1,6 @@
-package com.example.learningrd.MVC.controller;
+package com.example.learningrd.mvc.controller;
 
-import com.example.learningrd.MVC.model.PersonModelMVC;
+import com.example.learningrd.mvc.model.PersonModelMVC;
 
 public class ControllerMVC {
 
