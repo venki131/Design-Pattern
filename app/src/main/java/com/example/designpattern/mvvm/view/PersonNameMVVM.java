@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.example.designpattern.R;
 import com.example.designpattern.databinding.ActivityPersonNameMvvmBinding;
+import com.example.designpattern.mvvm.model.PersonModelMVVM;
 import com.example.designpattern.mvvm.view_model.PersonViewModel;
 
 public class PersonNameMVVM extends AppCompatActivity {
@@ -18,5 +19,9 @@ public class PersonNameMVVM extends AppCompatActivity {
         personNameMvvmBinding = DataBindingUtil.setContentView(this, R.layout.activity_person_name_mvvm);
         viewModel = new PersonViewModel();
         personNameMvvmBinding.setHandlers(viewModel);
+
+
+        PersonModelMVVM modelMVVM = new PersonModelMVVM("","");
+        personNameMvvmBinding.setUser(modelMVVM);
     }
 }

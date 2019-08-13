@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Learning R&amp;D</string>
+    <string name="app_name">Design Pattern</string>
     <string name="mvc">MVC</string>
     <string name="mvp">MVP</string>
     <string name="mvvm">MVVM</string>

@@ -8,6 +8,6 @@ public class PersonViewModel extends ViewModel {
     public String name;
 
     public void onBtnClicked(PersonModelMVVM model) {
-        name = model.getFirstName() + model.getLastName();
+        name = "Hi " + model.getFirstName() + " " +model.getLastName();
     }
 }
