@@ -6,12 +6,8 @@
     <data>
 
         <variable
-            name="user"
-            type="com.example.designpattern.mvvm.model.PersonModelMVVM" />
-
-        <variable
-            name="handlers"
-            type="com.example.designpattern.mvvm.view_model.PersonViewModel" />
+            name="viewModel"
+            type="com.example.designpattern.mvvm.viewmodels.PersonViewModel" />
     </data>
 
     <android.support.constraint.ConstraintLayout
@@ -24,7 +20,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:hint="First Name"
-            android:text="@={user.firstName}"
+            android:text="@={viewModel.firstName}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +31,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:hint="Last Name"
-            android:text="@={user.lastName}"
+            android:text="@={viewModel.lastName}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/et_first_name" />
@@ -44,7 +40,7 @@
             android:id="@+id/btn_show_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="@{(view) -> handlers.onBtnClicked(user)}"
+            android:onClick="@{(view) -> viewModel.onBtnClicked()}"
             android:text="Show Name"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +51,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@{handlers.name}"
+            android:text="@{viewModel.fullName}"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
